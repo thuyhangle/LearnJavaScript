@@ -3,10 +3,10 @@
 </head>
 <body>
 	<script type="text/javascript">
-		// var nm = prompt("What is your name?");
-		// document.write(nm);
-		// console.log(nm);
-		// alert(nm);
+		var adr = prompt("Where do you live?");
+		document.write(adr);
+		console.log(adr);
+		alert(adr);
 
 		var date = Date();
 		document.write(date);
@@ -20,10 +20,10 @@
 	<script type="text/javascript">
 		var name;
 		name = prompt("What is your name?");
-		document.write(name);
+		document.write("<p>" + name + "</p>");
 		document.write("<h1>" + name + "</h1>");
-		document.write(document.baseURL + "<br>");
-		document.write(document.title + "<br>")
+		document.write("URL: " + document.baseURL + "<br>");
+		document.write("Title: " + document.title + "<br>")
 	</script>
 
 </body>
